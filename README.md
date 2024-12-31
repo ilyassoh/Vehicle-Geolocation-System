@@ -20,7 +20,7 @@ Le projet vise à fournir une solution de géolocalisation pour la gestion de fl
 
 ## Software architecture
 
-![archi](img/Architecture.jpeg)
+![archi](Back-end/img/Architecture.jpeg)
 L'architecture logicielle suit une approche découplée, utilisant Spring Boot pour l'infrastructure backend avec des contrôleurs dédiés (VehicleController, LocationController, AuthController...) gérant les requêtes HTTP entre le frontend React et la base de données MySQL. Le frontend React se compose de composants tels que Vehicules Liste, Dashboard, Location, etc., facilitant les interactions utilisateur et envoyant des requêtes à Spring Boot.
 
 ## Frontend
@@ -193,11 +193,11 @@ Maintenant, votre projet full-stack devrait être opérationnel localement. En c
 
 Nous visons à présenter une solution de planification basée sur les préférences et les contraintes de localisation de la flotte de véhicules,répondant aux besoins stratégiques des entreprises dans le domaine de la logistique et du transport.
 
-![admin](img/Localisation.jpeg)
+![admin](Back-end/img/Localisation.jpeg)
 Figure 2: Interface (Localisation)
 
 Cet interface c'est ou on peut visualiser les vehicules avec leur Matricule,type et leur etat(actif,en panne,en reparation)
-![planning](img/Trajet.jpeg)
+![planning](Back-end/img/Trajet.jpeg)
 
 Figure 3: Interface trajet
 
@@ -208,11 +208,11 @@ Dans cet interface on peut visualiser le trajet d'un vehicule specifique en prec
 Click the link below to watch a demonstration video:
 [Watch the video]
 https://github.com/niperia/Documentation_Geo/assets/70211788/0e6fcdf8-f759-46d3-bc15-22e232612540
-## Contributors
 
+## Contributors
+- Ilyes Hamdaoui([GitHub](https://github.com/ilyassoh))
 - Oussama Benrkia ([GitHub](https://github.com/Oussama-benrkia))
 - Malak Elkiram ([GitHub](https://github.com/723malak))
 - Haytam Aatita ([GitHub](https://github.com/niperia))
-- Ilyes Hamdaoui([GitHub](https://github.com/ilyassoh))
 - Elkasri Omaima ([GitHub](https://github.com/Omaimaelk))
 - Mohamed Lachgar ([Researchgate](https://www.researchgate.net/profile/Mohamed-Lachgar))
