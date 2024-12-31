@@ -1,0 +1,59 @@
+/* localisation.module.css */
+.sidebar-2 {
+  width: 300px;
+  background: #111633f2;
+  border-right: 1px solid #ddd;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  height: 80vh;
+}
+
+.sidebar {
+    width: 300px;
+    background: #111633f2;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    height: 70vh; /* Or any other method described above */
+    overflow-y: auto; /* Adds a scrollbar if content overflows */
+
+  }
+  
+  .sidebar-h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+  }
+  
+  .sidebar-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-ul-li {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #182049f2;
+    border: 1px solid #182058f2;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .sidebar-ul-li:hover {
+    background: #282d473a;
+    cursor: pointer;
+  }
+  
+  .sidebar-ul-li::before {
+    content: '🚗';
+    margin-right: 10px;
+    color: #ffffff;
+  }
+  
+  /* .map {
+    height: 85vh;
+    flex: 1;
+    margin-left: 10px;
+  } */

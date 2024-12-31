@@ -1,0 +1,42 @@
+.btn {
+    background: #213638;
+    padding: 10px 25px;
+    color: #ffff;
+    border-radius: 18px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+  }
+  .login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: rgb(207, 207, 207);
+    max-width: 300px;
+    margin: auto;
+    margin-top: 200px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .em {
+    padding: 10px;
+    border-color: #213638;
+    border: 2px solid;
+    border-radius: 5px;
+  }
+  .pa {
+    padding: 10px;
+    border-color: #213638;
+    border: 2px solid;
+    border-radius: 5px;
+  }
+  .pa::placeholder {
+    color: rgb(85, 84, 84);
+  }
+  .em::placeholder {
+    color: rgb(85, 84, 84);
+  }
+  
